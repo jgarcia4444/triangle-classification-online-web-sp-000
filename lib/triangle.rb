@@ -19,6 +19,8 @@ class Triangle
         else
           return :scalene
         end
+      else
+        raise TriangleError
       end
     else
       raise TriangleError
